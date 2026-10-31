@@ -1,0 +1,80 @@
+{
+  "app": "CoinLight",
+  "device": "1080x2400",
+  "canvas": {
+    "reference": "1242x2688",
+    "logical": "1242x2760",
+    "letterbox": 36,
+    "note": "CanvasScaler Expand at 1242x2688; on 1080x2400 the canvas is 1242x2760 and the AspectRatioFitter under it letterboxes the panel by 36 units top and bottom. Every tapFrac below is a real RectTransform resolved through that."
+  },
+  "steps": [
+    {
+      "waitLoader": true,
+      "wait": 4,
+      "shot": "01_AgeNotice"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.773
+      ],
+      "label": "ENTER",
+      "wait": 2.4,
+      "shot": "02_RoadLobby"
+    },
+    {
+      "tapFrac": [
+        0.21,
+        0.787
+      ],
+      "label": "ROUTE MAP",
+      "wait": 2.2,
+      "shot": "03_RouteMap"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.836
+      ],
+      "label": "DRIVE ROUTE",
+      "waitLoader": true,
+      "shot": "04_RoadStopIdle"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.807
+      ],
+      "label": "SPIN",
+      "wait": 4.6,
+      "shot": "05_ReelResult"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.807
+      ],
+      "label": "SPIN",
+      "wait": 4.2,
+      "shot": "06_BadgeStop"
+    },
+    {
+      "tapFrac": [
+        0.899,
+        0.058
+      ],
+      "label": "PAUSE",
+      "wait": 1.8,
+      "shot": "07_PausePop"
+    },
+    {
+      "tapFrac": [
+        0.692,
+        0.595
+      ],
+      "label": "END ROUTE",
+      "wait": 2.6,
+      "shot": "08_RouteSummary"
+    }
+  ]
+}
